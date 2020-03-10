@@ -8,7 +8,9 @@ Somar os dois números.
 */
 $dados = $_GET;
 print(gettype($dados));
+echo '<br>';
 print(var_dump($dados));
-
+echo '<br>';
+echo array_sum($dados);
 
 ?>

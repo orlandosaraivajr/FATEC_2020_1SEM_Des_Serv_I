@@ -13,4 +13,14 @@ $array = [
     "n3" => 30,
     "n4" => 'oi mundo',
 ];
+
+foreach($array as $values){
+    if(gettype($values) == 'integer'){
+    echo $values;
+    echo "<br>";
+    }
+    
+}
+echo array_sum($array);
+
 ?>

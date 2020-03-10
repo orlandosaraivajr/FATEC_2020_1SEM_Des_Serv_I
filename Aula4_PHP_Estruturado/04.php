@@ -10,4 +10,13 @@ $array = [
     "n4" => 'oi mundo',
 ];
 
+echo gettype ($array);
+
+echo '<br>';
+
+var_dump($array);
+echo '<br>';
+echo $array['n1'];
+echo $array['N1'];
+echo $array['teste'];
 ?>
